@@ -1,0 +1,81 @@
+/*****************************************TAG SELECTORS*****************************************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 20px auto 0px auto;
+  color: #515E63;
+  font-family: 'Sacramento', sans-serif;
+  font-size: 5.625rem;
+  /*90px*/
+}
+
+h2 {
+  color: #515E63;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  /*40px*/
+}
+
+h3 {
+  color: #515E63;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*****************************************CLASS SELECTORS*****************************************/
+.top-container {
+  background-color: #F1ECC3;
+  /*border: solid 10px;
+  padding: 20px;*/
+  width: 100%;
+  position: relative;
+  padding-top: 50px;
+}
+
+.middle-container {
+  background-color: #C9D8B6;
+  /*border: solid 20px;*/
+  width: 100%;
+}
+
+.bottom-container {
+  background-color: #57837B;
+  /*border: solid 10px;*/
+  width: 100%;
+}
+
+.business {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+  height: 150px;
+  width: 150px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+  height: 150px;
+  width: 150px;
+}
+
+.profile-picture {
+  border-radius: 100%
+}
+
+.contact-me{
+  padding-bottom: 30px;
+}
+
+.bottom-container{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
